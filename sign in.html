@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width">
+	<title>log in page</title>
+	<style type="text/css">
+		* {
+			margin: 0px;
+			padding: 0px;
+		}
+		html {
+			background: blue;
+			background-image: url('9763_digital_design_3_6 (1).jpg');
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+		}
+		body {
+			background: red;
+			width: 600px;
+			height: 800px;
+			margin: 20px auto;
+		}
+		#header {
+			background: silver;
+			height: 100px;
+			width: 100%;
+
+		}
+	      #nav    {
+	      	background: purple;
+	      	height: 30px;
+	      	width: 100%;
+
+		}
+		#container {
+			background: orange;
+			height: 640px;
+			width: 100%;
+			background-image: url('3616_Blueray (1).jpg');
+			background-position: center center;
+			background-attachment: scroll;
+		}
+		#footer {
+			background: white;
+			height: 30PX;
+			width: 100%;
+		}
+			
+		a {
+			text-decoration: none;
+			color: white;
+		}
+		#arief li {
+			list-style-type: none;
+			display: inline;
+			padding-left: 15px;
+			padding-right: 15px;
+			line-height: 30px;
+
+		}
+		a:hover {
+			color: green;
+		}
+		#sulthan {
+			text-decoration: none;
+			list-style-type: none;
+			padding-bottom: 15px;
+			padding-top: 15px;
+			padding-right: 15px;
+			padding-left: 15px;
+		}
+		#sulthan a {
+			color: blue;
+
+		}
+		#sulthan a:hover {
+			color: green;
+		}
+		#logotxt {
+			height: 100%;
+			width: 25%;
+			background: pink;
+			float: left;
+		}
+		#logo {
+			height: 100%;
+			width: 75%;
+			float: right;
+			background: white;
+
+		}
+		#logotxt h1 {
+			color: darkred;
+		    padding-left:20px;
+		    padding-top: 30px;
+		    font-family: Algerian;
+		}
+		#logotxt  h4 {
+            color: blue;
+            padding-left: 5px;
+            font-family: Chaparral Pro Light;
+		}
+		#logo img {
+			padding-left: 15px;
+			padding-top: 10px;
+		}
+		#container h1 {
+			text-align: center;
+			color: darkred;
+			margin-bottom: : 50px;
+		}
+		fieldset {
+			height: 400px;
+			width: 450px;
+			margin: 0 auto;
+			
+      
+
+        #user-login  {
+        	background-color: aquamarine;
+        	border-radius: 5px;
+        }
+        
+        #student-id {
+           width: 350px;
+           height: 30px;
+           padding-left: 0px;
+           font-family: algerian;
+           margin: 0 auto;
+           
+        }
+
+        #student-name {
+           width: 350px;
+           height: 30px;
+           padding-left: 0px;
+           font-family: algerian;
+
+         }
+         #mark {
+          width: 350px;
+           height: 30px;
+           padding-left: 0px;
+           font-family: algerian;
+           margin: 0 auto;
+
+         }
+           
+        #log-in {
+        	width: 350px;
+        	height: 30px;
+        	color: white;
+        	background-color: blue;
+        	margin: 0 auto;
+         }
+
+        form {
+            margin: 10px auto;
+        }
+        p {
+        	font-family: algerian;
+        	font-style: italic;
+        }
+        #password {
+        	text-align: left;
+        	text-decoration: none;
+        	color: white;
+        	word-spacing: 50px;
+        }
+        .instruction {
+        	text-align: left;
+        	color: white;
+        	float: left;
+           
+
+        }
+        h3 {
+        
+        	margin: 0px AUTO;
+        	color: darkred;
+        	font-family: algerian;
+        	text-decoration: underline;
+        	font-style: italic;
+        	padding-bottom: 20PX;
+        }
+
+		
+
+		
+	</style>
+</head>
+<body>
+	<!--HEADER-->
+	<div id="header">
+		<div id="logotxt">
+			<h1>DACE</h1>
+			<h4>learn more be smart</h4>
+		</div>
+		<div id="logo">
+			<img src="IMG_20191130_231116_479.jpg" id="logo-image">
+		</div>
+
+	 </div>
+	 <!--NAV-->
+	<div id="nav">
+		<center>
+		<ul id="arief">
+			<li><a href="index.html"> Home </a></li>
+			<li><a href="department.html">department</a></li>
+			<li><a href="books.html">books</a></li>
+			<li><a href="library.html">library</a></li>
+			<li><a href="sign in.html"> sign in</a></li>
+			<li><a href="about Us.html">about Us</a></li>
+
+		</ul>
+		</center>
+	</div>
+	<!--CONTAINER-->
+	<div id="container">
+		<h1>Sign In Page</h1>
+	<form>
+		<fieldset>
+			<legend id="user-login"> Student Login </legend>
+			<P>
+				student name:<br>
+
+				<label for="student-name"></label>
+				<input type="text" name="student-name" id="student-name" placeholder="ENTER YOUE NAME">
+			</P><br>
+			<p>
+				student id:<br>
+				<label for="student-id"></label>
+				<input type="number" name="student-id" id="student-id" placeholder="ENTER YOUR ID">
+			</p>
+			<br>
+			<p>
+				Password:<br>
+				<label for="mark"></label>
+				<input type="password" name="mark" id="mark" placeholder="password">
+			</p><br>
+			<p>
+				<input type="submit" name="log-in" id="log-in" value="log-in">
+			</p>
+			<p id="password">
+			<a href="#">forgot-password</a> 
+
+
+
+			<a href="new_user.html" target="_blank">user-registration</a>
+			</p><br>
+						<p><h3>LOGIN INSTRUCTION</h3></p>
+						
+
+			
+			<p class="instruction">
+					The login page allows the student to login.it has three fields the STUDENT NAME, PASSWORD and The STUDENT ID.The inputs will be compared with our student database and the PASSWORD verified.once the verification complete,the user will proceed to the main menu
+			
+			</p>
+		</fieldset>
+	</form>
+	</div>
+		<!--FOOTER-->
+		<div id="footer">
+			<center>
+			copyright &COPY; 2019 | designed by arief
+		   </center> 
+		</div>
+
+</body>
+</html>-

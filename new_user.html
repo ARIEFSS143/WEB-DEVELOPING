@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width">
+	<title>log in page</title>
+	<style type="text/css">
+		* {
+			margin: 0px;
+			padding: 0px;
+		}
+		html {
+			background: blue;
+			background-image: url('9763_digital_design_3_6 (1).jpg');
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+		}
+		body {
+			background: red;
+			width: 600px;
+			height: 800px;
+			margin: 20px auto;
+		}
+		#header {
+			background: silver;
+			height: 100px;
+			width: 100%;
+
+		}
+	      #nav    {
+	      	background: purple;
+	      	height: 30px;
+	      	width: 100%;
+
+		}
+		#container {
+			background: orange;
+			height: 640px;
+			width: 100%;
+			background-image: url('3616_Blueray (1).jpg');
+			background-position: center center;
+			background-attachment: scroll;
+		}
+		#footer {
+			background: white;
+			height: 30PX;
+			width: 100%;
+		}
+			
+		a {
+			text-decoration: none;
+			color: white;
+		}
+		#arief li {
+			list-style-type: none;
+			display: inline;
+			padding-left: 15px;
+			padding-right: 15px;
+			line-height: 30px;
+
+		}
+		a:hover {
+			color: green;
+		}
+		#sulthan {
+			text-decoration: none;
+			list-style-type: none;
+			padding-bottom: 15px;
+			padding-top: 15px;
+			padding-right: 15px;
+			padding-left: 15px;
+		}
+		#sulthan a {
+			color: blue;
+
+		}
+		#sulthan a:hover {
+			color: green;
+		}
+		#logotxt {
+			height: 100%;
+			width: 25%;
+			background: pink;
+			float: left;
+		}
+		#logo {
+			height: 100%;
+			width: 75%;
+			float: right;
+			background: white;
+
+		}
+		#logotxt h1 {
+			color: darkred;
+		    padding-left:20px;
+		    padding-top: 30px;
+		    font-family: Algerian;
+		}
+		#logotxt  h4 {
+            color: blue;
+            padding-left: 5px;
+            font-family: Chaparral Pro Light;
+		}
+		#logo img {
+			padding-left: 15px;
+			padding-top: 10px;
+		}
+		#container h1 {
+			text-align: center;
+			color: darkred;
+			margin-bottom: : 50px;
+			font-family: algerian;
+		}
+		fieldset {
+			height: 400px;
+			width: 450px;
+			margin: 0 auto;
+			padding-left: 20px;
+			border-radius:5px;
+			border: 1px solid beige;
+			border-width: thick;
+			padding-top: 100px;
+			padding-left: 100px;
+			padding-bottom: 70px;
+	    }
+      
+
+        #user-login  {
+        	background-color: aquamarine;
+        	border-radius: 5px;
+        }
+        
+    
+
+        #student-name {
+           width: 350px;
+           height: 30px;
+           padding-left: 0px;
+           font-family: algerian;
+
+          }
+
+          #mark1 {
+           width: 350px;
+           height: 30px;
+           padding-left: 0px;
+           font-family: algerian;
+            }
+
+             #confirm-password {
+           width: 350px;
+           height: 30px;
+           padding-left: 0px;
+           font-family: algerian;
+
+         }
+
+          #email-id {
+           width: 350px;
+           height: 30px;
+           padding-left: 0px;
+           font-family: algerian;
+
+         }
+
+         #mark {
+          width: 350px;
+           height: 30px;
+           padding-left: 0px;
+           font-family: algerian;
+
+         }
+
+          #security {
+          width: 350px;
+           height: 30px;
+           padding-left: 0px;
+           font-family: algerian;
+
+         }
+           
+        #log-in {
+        	width: 350px;
+        	height: 30px;
+        	color: white;
+        	background-color: blue;
+         }
+
+        form {
+            margin: 10px auto;
+        }
+        p {
+        	font-family: algerian;
+        	font-style: italic;
+        }
+        #password a:hover {
+        	text-align: center;
+        	background-color:yellow;
+        	color: orange;
+        	}
+        #password a {
+        	color: teal;
+        	margin-right: 5px;
+
+        }
+        
+        .instruction {
+        	text-align: left;
+        	color: white;
+        	float: left;
+           
+
+        }
+        h3 {
+        
+        	margin: 0px AUTO;
+        	color: darkred;
+        	font-family: algerian;
+        	text-decoration: underline;
+        	font-style: italic;
+        	padding-bottom: 20PX;
+        }
+
+		
+
+		
+	</style>
+</head>
+<body>
+	<!--HEADER-->
+	<div id="header">
+		<div id="logotxt">
+			<h1>DACE</h1>
+			<h4>learn more be smart</h4>
+		</div>
+		<div id="logo">
+			<img src="IMG_20191130_231116_479.jpg" id="logo-image">
+		</div>
+
+	 </div>
+	 <!--NAV-->
+	<div id="nav">
+		<center>
+		<ul id="arief">
+			<li><a href="index.html"> Home </a></li>
+			<li><a href="department.html">department</a></li>
+			<li><a href="books.html">books</a></li>
+			<li><a href="library.html">library</a></li>
+			<li><a href="sign in.html"> sign in</a></li>
+			<li><a href="about Us.html">about Us</a></li>
+
+		</ul>
+		</center>
+	</div>
+	<!--CONTAINER-->
+	<div id="container">
+		<h1>User Registration Form</h1>
+	<form>
+		<fieldset>
+			<legend id="user-login">User Registration</legend>
+			<P>
+				 Student Name:<br>
+
+				<label for="student-name"></label>
+				<input type="text" name="student-name" id="student-name" placeholder="ENTER YOUE NAME">
+			</P><br>
+
+
+			<p>
+				Password:<br>
+				<label for="mark"></label>
+				<input type="password" name="mark" id="mark" placeholder="password">
+			</p><br>
+
+
+			<p>
+			   Confirm Password:<br>
+				<label for="mark"></label>
+				<input type="password" name="mark1" id="mark1" placeholder="ENTER CONFIRM PASSWORD">
+			</p><br>
+
+
+			<p>
+			   Email:<br>
+				<label for="email_id"></label>
+				<input type="Email" name="email-id" id="email-id" placeholder="ENTER YOUR MAIL ID">
+			</p><br>
+
+			<TR>
+				<td>Security Question</td>
+				<td>
+					<select id="security">
+						<option value="">TEXT YOUR ANSWERS</option>
+						<option>what is your lover Name</option>
+						<option>what is your pet Name</option>
+						<option>what is your favourite color</option>
+						<option>what is your favourite sports</option>
+						<option>Whs is your favourite place</option>
+					</select>
+				</td>
+			</TR>
+			<br>
+			<br>
+
+
+			<p>
+				<input type="submit" name="log-in" id="log-in" value="save">
+			</p><br>
+			<p id="password">
+			<a href="sign in.html">ALREADY USER?</a> 
+			</p>
+		</fieldset>
+	</form>
+	</div>
+		<!--FOOTER-->
+		<div id="footer">
+			<center>
+			copyright &COPY; 2019 | designed by arief
+		   </center> 
+		</div>
+
+</body>
+</html>-
